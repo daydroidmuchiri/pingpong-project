@@ -17,3 +17,26 @@ function pingpong(num) {
     }
 
   };
+};
+
+
+
+
+
+
+$(document).ready(function() {
+$("#formOne").submit(function(event) {
+  event.preventDefault();
+  var result = parseInt($("#anyNumber").val());
+  pingpong(result);
+  console.log(pPong);
+
+  pPong.forEach(function(e) {
+    $(".outPut").append($("<li>").html(e));
+  })
+
+
+
+
+
+});
