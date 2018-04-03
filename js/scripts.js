@@ -34,7 +34,7 @@ $("#formOne").submit(function(event) {
   pPong.forEach(function(e) {
     $(".outPut").append($("<li>").html(e));
   })
-
+})
 
 
 
