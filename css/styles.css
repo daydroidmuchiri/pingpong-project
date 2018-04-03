@@ -1,0 +1,17 @@
+#ping {
+  padding-right: 10px;
+  width: 200px;
+}
+.box {
+  background-color: #a9a9a9;
+  position: relative;
+  padding: 10px;
+  margin-top: 50px;
+}
+.container-fluid {
+  text-align: center;
+  background-image: url('../images/3d.jpg');
+  background-size: 1500px;
+  height: 500px;
+  width: auto;
+}
