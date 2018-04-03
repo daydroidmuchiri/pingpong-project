@@ -29,8 +29,4 @@ $("#formOne").submit(function(event) {
     $(".outPut").append($("<li>").html(e));
   })
 })
-
-
-
-
 });
